@@ -10,7 +10,7 @@ import UIKit
 import AppKit
 #endif
 
-@testable import VRNetworking
+@testable import Networking
 
 
 

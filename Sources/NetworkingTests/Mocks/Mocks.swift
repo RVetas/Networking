@@ -1,4 +1,4 @@
-import VRNetworking
+import Networking
 import Foundation
 
 final class DecoderMock<Result>: DecodesJSON {

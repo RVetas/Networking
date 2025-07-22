@@ -1,7 +1,7 @@
 // Created by Рамазанов Виталий Глебович on 19/09/22
 
 import XCTest
-import VRNetworking
+import Networking
 
 final class EndpointTests: XCTestCase {
     func testInitWithValidString() {

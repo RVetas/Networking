@@ -72,7 +72,7 @@ public final class DefaultNetworkService: NetworkService {
 
 			NotificationCenter.default.post(
 				Notification(
-					name: Notification.Name.VRNetworking.didCompleteRequest,
+					name: Notification.Name.Networking.didCompleteRequest,
 					object: nil,
 					userInfo: [
 						Notification.Key.url: url,
@@ -161,7 +161,7 @@ private extension DefaultNetworkService {
 
             NotificationCenter.default.post(
                 Notification(
-                    name: Notification.Name.VRNetworking.didCompleteRequest,
+                    name: Notification.Name.Networking.didCompleteRequest,
                     object: nil,
                     userInfo: [
                         Notification.Key.data: data,

@@ -30,7 +30,7 @@ struct MultipartRequest {
     
     public init() { }
     
-    public let boundary: String = "VRLibs.VRNetworking.MultipartRequestBoundary"
+    public let boundary: String = "VRLibs.Networking.MultipartRequestBoundary"
     public private(set) var httpBody = NSMutableData()
     
     public func addingData(name: String, fileName: String?, data: Data, mimeType: String) -> Self {

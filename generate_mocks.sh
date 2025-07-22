@@ -1,1 +1,1 @@
-sourcery --sources Sources --templates Templates --output Sources/VRNetworkingTests/Mocks
+sourcery --sources Sources --templates Templates --output Sources/Networking/Mocks

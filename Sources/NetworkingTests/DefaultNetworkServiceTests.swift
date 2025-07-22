@@ -1,7 +1,7 @@
 // Created by Рамазанов Виталий Глебович on 18/09/22
 
 import XCTest
-import VRNetworking
+import Networking
 
 final class DefaultNetworkServiceTests: XCTestCase {
 
@@ -468,7 +468,7 @@ private extension DefaultNetworkServiceTests {
     }
 }
 
-extension NetworkError: Equatable {
+extension NetworkError: @retroactive Equatable {
     public static func == (lhs: NetworkError, rhs: NetworkError) -> Bool {
         switch (lhs, rhs) {
             case (.invalidURL, .invalidURL): return true
